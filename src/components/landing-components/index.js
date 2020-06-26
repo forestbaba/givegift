@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.scss'
+import grayimage from './gray-scale.png'
 
 const index = () => {
     return (
@@ -10,7 +11,10 @@ const index = () => {
                 <button>Create your birthday list</button>
             </div>
             <div className='right'>
-              
+                <div className='overlay'></div>
+                <img src={grayimage} className='cover' />
+
+
             </div>
         </div>
     )
