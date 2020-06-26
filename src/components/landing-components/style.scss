@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
     background-color: #F6F7FB;
     // margin-right: 150px;
     // margin-left: 100px;
@@ -17,8 +17,8 @@
         padding-right: 60px;
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        align-items: left;
+        justify-content: flex-start;
+        align-items: flex-start;
 
         h2 {
             font-size: 25px;
@@ -29,11 +29,12 @@
             border-radius: 25px;
             text-align: center;
             width: 200px;
-            position: relative;
-            align-self: center;
+            // position: relative;
+            // align-self: center;
             background-color: #38D78B;
             color: white;
             border-width: 0px;
+            margin-top: 20px;
         }
     }
 
